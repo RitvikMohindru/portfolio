@@ -48,3 +48,11 @@ a:hover {
   border-bottom-color: var(--color-accent);
   padding-bottom: 5px;
 }
+
+input, textarea, button {
+  display: block;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-block: 10px;
+}
