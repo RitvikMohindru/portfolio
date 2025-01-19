@@ -153,7 +153,7 @@ h6 {
 }
 
 .resume section {
-  border-bottom: 2px solid #ccc; /* Light grey border */
+  border-bottom: 20px solid #ccc; /* Light grey border */
   padding-bottom: 0.5rem; /* Add spacing below the heading */
   margin-bottom: 1rem; /* Separate the heading from content */
   font-size: 150%; /* Optional: Slightly larger heading size */
