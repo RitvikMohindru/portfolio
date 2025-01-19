@@ -132,14 +132,12 @@ h6 {
 
 .resume ul {
   list-style: none; /* Remove bullet points */
-  padding: 0;
+  padding:0;
   margin: 0;
   display: grid;
-  gap: 0.5rem; /* Space between list items */
 }
 
 .resume article {
   display: grid;
   grid-template-rows: subgrid; /* Align rows to the parent section */
-  gap: 1em; /* Space between items */
 }
