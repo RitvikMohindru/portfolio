@@ -39,6 +39,7 @@ nav a {
 html {
   --color-accent: oklch(65% 50% 0);
   accent-color: var(--color-accent);
+  font: inherit;
 }
 
 a:hover {
