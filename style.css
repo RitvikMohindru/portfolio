@@ -35,3 +35,15 @@ nav a {
   border-bottom-color: oklch(80% 3% 200);
   padding-bottom: 5px;
 }
+
+html {
+  --color-accent: oklch(65% 50% 0);
+  accent-color: var(--color-accent);
+}
+
+a:hover {
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-accent);
+  padding-bottom: 5px;
+}
