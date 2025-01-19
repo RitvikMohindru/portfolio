@@ -56,3 +56,7 @@ a:hover {
   box-sizing: border-box;
   margin-block: 10px;
 } */
+
+form {
+  display: grid;
+}
