@@ -116,3 +116,18 @@ h5 {
 h6 {
   font-size: 100%;
 }
+
+.resume {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+}
+
+.resume article {
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  gap: 1em;
+}
+
+.resume article h2 {
+  margin: 0;
+}
