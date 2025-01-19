@@ -123,3 +123,10 @@ h6 {
   border-bottom-color: grey;
   padding-bottom: 5px;
 }
+
+.resume section {
+  display: grid;
+  grid-template-columns: subgrid; /* Align to the parent grid */
+  grid-template-rows: auto;
+  gap: 1rem;
+}
