@@ -120,7 +120,7 @@ h6 {
 .resume h4 {
   border-bottom-width: 0.5em;
   border-bottom-style: solid;
-  border-bottom-color: grey;
+  border-bottom-color: rgb(90, 255, 249);
   padding-bottom: 5px;
 }
 
