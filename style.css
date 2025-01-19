@@ -120,8 +120,8 @@ h6 {
 .resume h4 {
   border-bottom-width: 0.5em;
   border-bottom-style: solid;
-  border-bottom-color: rgb(90, 255, 249);
-  padding-bottom: 1px;
+  border-bottom-color: rgb(21, 219, 212);
+  padding-bottom: 3px;
 }
 
 .resume section {
@@ -132,7 +132,7 @@ h6 {
 
 .resume ul {
   list-style: none; /* Remove bullet points */
-  padding:1px;
+  padding:0;
   margin: 0;
   display: grid;
 }
@@ -140,5 +140,4 @@ h6 {
 .resume article {
   display: grid;
   grid-template-rows: subgrid; /* Align rows to the parent section */
-  padding: 1px;
 }
