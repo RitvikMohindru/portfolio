@@ -152,7 +152,7 @@ h6 {
   display: contents;
 }
 
-.resume section h4 {
+.resume section {
   border-bottom: 2px solid #ccc; /* Light grey border */
   padding-bottom: 0.5rem; /* Add spacing below the heading */
   margin-bottom: 1rem; /* Separate the heading from content */
