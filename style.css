@@ -126,12 +126,11 @@ h6 {
 
 .resume  {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
 }
 
 .resume section {
   grid-template-rows: subgrid;
-  grid-row: span 3;
+  grid-row: span 1;
   gap: 0.5em;
 }
 
