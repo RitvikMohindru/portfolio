@@ -151,3 +151,11 @@ h6 {
 .resume li {
   display: contents;
 }
+
+.resume section h4 {
+  border-bottom: 2px solid #ccc; /* Light grey border */
+  padding-bottom: 0.5rem; /* Add spacing below the heading */
+  margin-bottom: 1rem; /* Separate the heading from content */
+  font-size: 150%; /* Optional: Slightly larger heading size */
+  line-height: 1.2; /* Adjust line height for better readability */
+}
