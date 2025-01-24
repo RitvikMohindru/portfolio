@@ -14,11 +14,12 @@ ul, li {
 }
 
 nav {
+  --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom-color: var(--border-color);
   display: flex;
   margin-bottom: 20px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: oklch(80% 3% 200);
 }
 
 nav a {
@@ -40,6 +41,7 @@ html {
   --color-accent: oklch(65% 50% 0);
   accent-color: var(--color-accent);
   font: inherit;
+  color-scheme: light dark;
 }
 
 a:hover {
@@ -57,7 +59,7 @@ a:hover {
   margin-block: 10px;
 } */
 
-form {
+form, select {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1em; 
@@ -69,7 +71,15 @@ label {
   grid-column: 1 / -1;
 }
 
-button {
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-family: inherit;
+  font-size: 80%;
+}
+
+button, select {
   grid-column: 1 / -1;
 }
 
