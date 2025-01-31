@@ -14,10 +14,10 @@ let currentLink = navLinks.find(
 currentLink?.classList.add('current');
 
 let pages = [
-    { url: "/index.html", title: 'home' },
-    { url: "/contact/index.html", title: 'contact' },
-    { url: "/projects/index.html", title: 'projects' },
-    { url: "/resume/index.html", title: 'resume'},
+    { url: "/", title: 'home' },
+    { url: "/contact", title: 'contact' },
+    { url: "/projects", title: 'projects' },
+    { url: "/resume", title: 'resume'},
     { url: "https://github.com/RitvikMohindru", title: 'github'}
   ];
 
