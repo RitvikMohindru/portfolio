@@ -14,7 +14,7 @@ let currentLink = navLinks.find(
 currentLink?.classList.add('current');
 
 let pages = [
-    { url: "../", title: 'home' },
+    { url: "/", title: 'home' },
     { url: "../contact", title: 'contact' },
     { url: "../projects", title: 'projects' },
     { url: "../resume", title: 'resume'},
