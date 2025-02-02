@@ -1,61 +1,73 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore hic ducimus nobis non iste quisquam delectus, eius officia perspiciatis temporibus! Corrupti dolor atque impedit in id possimus, rerum quae voluptas!"
+        "title": "Power Outages Data Analysis",
+        "year": "2024",
+        "image": "https://media.wired.com/photos/61857ab5c4b863206a589936/master/pass/Gear-Prepare-for-Blackouts-1155510644.jpg",
+        "description": "Analyzed a Purdue LASCI dataset on U.S. power outages (2000-2016). Cleaned data and performed univariate, bivariate, and NMAR analysis. Conducted permutation tests to analyze missingness dependency. Ran a hypothesis test to examine climate region distribution across cause categories. Built and evaluated a Random Forest Classifier to predict outage causes, using F1-score and accuracy for performance and GridSearchCV for hyperparameter tuning. Conducted a fairness analysis via permutation test to check for bias toward states of varying populations."
     },
     {
-        "title": "Distinctio maxime expedita excepturi?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Placeat pariatur neque minima hic odio, expedita, optio officiis sunt deleniti debitis nobis quia magnam aperiam veritatis soluta libero unde cupiditate repudiandae veniam harum incidunt nisi ipsam? Ipsam, dolorem corrupti?"
+        "title": "Meteorite Landings Analysis",
+        "year": "2023",
+        "image": "https://images.theconversation.com/files/266793/original/file-20190401-177167-gu4cs5.jpg?ixlib=rb-4.1.0&rect=0%2C497%2C4000%2C2694&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+        "description": "Analyzed meteorite landing locations using hypothesis testing, random sampling, TVD, and confidence intervals using bootstrapping and CLT."
     },
     {
-        "title": "Possimus totam odio accusantium.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Vel earum suscipit modi corrupti harum animi excepturi quidem neque, aliquam molestiae soluta eaque tenetur nobis omnis. Corrupti nihil quae fuga laboriosam impedit, a sapiente corporis ex quos consequatur labore!"
+        "title": "Taylor Swift Song Analysis",
+        "year": "2023",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/640px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+        "description": "Analyzed Taylor Swift's songs using lyrics and audio features. Created data visualizations with Matplotlib to explore audio trends and built a song recommender, lyric searcher, and keyword identifier to find similar songs, search lyrics, and summarize key themes."
     },
     {
         "title": "Modi voluptates debitis quia!",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Reiciendis, nemo? Excepturi, adipisci eligendi iure pariatur aliquam impedit culpa id at velit ullam provident ratione! Accusamus, repellat eos accusantium, eligendi quaerat dicta reiciendis illo similique magnam inventore corporis neque!"
     },
     {
         "title": "Temporibus cumque aut numquam.",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Magnam enim maxime, similique ab officia amet ullam eaque quisquam, eligendi aspernatur porro voluptas officiis, dolor itaque doloribus aliquid distinctio neque quaerat quo voluptatum eveniet totam laboriosam magni! In, deserunt!"
     },
     {
         "title": "Quam illo pariatur est.",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Iste doloribus beatae officia blanditiis adipisci rerum quibusdam porro tempore. Perspiciatis itaque atque at distinctio incidunt, tempora, suscipit aliquam, magni quaerat harum laudantium sapiente sed vel architecto mollitia reiciendis fugiat."
     },
     {
         "title": "Laboriosam iure corporis nostrum.",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Incidunt atque exercitationem veniam aliquid, nesciunt natus ex commodi laborum iste dolore laboriosam dicta ab ipsam amet, porro consequuntur quo, deserunt quod illum eius molestiae quae ad nobis nisi! Perferendis."
     },
     {
         "title": "Praesentium doloremque ducimus enim!",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Iusto est nihil, saepe eveniet ab qui soluta nemo nulla perspiciatis cum porro eius, sint provident, ullam corporis temporibus totam ducimus ipsa odit modi inventore exercitationem? Vero repellat vel veritatis."
     },
     {
         "title": "Quod voluptates ab fugit.",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Odio aliquam eligendi maxime sunt. Molestias dignissimos sed explicabo culpa velit voluptates ipsam, vero odio quod unde dicta iure nemo consequatur fuga illum porro dolorum quidem odit nisi doloremque! Labore."
     },
     {
         "title": "Adipisci eos ratione velit!",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Quos eos nam consectetur asperiores id laborum aspernatur quo, perspiciatis doloremque sequi repellat deleniti non veniam esse dolores iste sapiente dolorem natus voluptas, nulla perferendis, vitae quisquam! Ullam, nesciunt adipisci?"
     },
     {
         "title": "Distinctio tempore incidunt perspiciatis.",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Pariatur, mollitia! Corporis et quidem impedit cupiditate quasi odit dolorum atque quia amet autem, sit deserunt natus earum voluptatibus nulla molestiae cum ratione similique tenetur in? Numquam nemo qui ratione."
     },
     {
         "title": "Ad hic cum adipisci!",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Delectus magnam adipisci quia beatae quaerat quos deleniti. Sequi ipsa temporibus commodi eaque autem omnis, sapiente aperiam id iste odit suscipit repellat quo adipisci et quibusdam debitis tempora, libero voluptatem."
     }

@@ -147,3 +147,37 @@ h6 {
 .resume section h2 {
   margin: 0;
 }
+
+/* Grid container for <dl> */
+dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal-sized columns */
+  gap: 10px; /* Space between columns */
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal-sized columns */
+  gap: 10px; /* Space between columns */
+}
+
+dt {
+  grid-row: 1; /* Place all <dt> elements in the first row */
+}
+
+dd {
+  grid-row: 2; /* Place all <dd> elements in the second row */
+  margin: 0; /* Remove default margin */
+}
+
+.projects img {
+  width: 75%;
+  height: auto;
+}
