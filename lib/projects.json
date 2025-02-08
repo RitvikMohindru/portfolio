@@ -13,7 +13,7 @@
     },
     {
         "title": "Taylor Swift Song Analysis",
-        "year": "2023",
+        "year": "2022",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/640px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
         "description": "Analyzed Taylor Swift's songs using lyrics and audio features. Created data visualizations with Matplotlib to explore audio trends and built a song recommender, lyric searcher, and keyword identifier to find similar songs, search lyrics, and summarize key themes."
     },
