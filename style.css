@@ -241,3 +241,78 @@ path {
     fill: var(--color);
   }
 }
+
+.gridlines line {
+  stroke: lightgray;
+  stroke-opacity: 0.5;
+  stroke-dasharray: 3 3;
+}
+
+.gridlines path {
+  stroke: none;
+}
+
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Labels in the first column, values in the second */
+  gap: 0.5em 1em; /* Spacing between rows and columns */
+  margin: 0; /* Remove default margins */
+}
+
+dl.info dt {
+  color: gray; /* Labels less prominent */
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info dd {
+  font-weight: bold; /* Values more prominent */
+  margin: 0; /* Remove default margins */
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+.tooltip {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  padding: 10px 15px;
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8; /* 5 + 3 */
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}

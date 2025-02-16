@@ -18,6 +18,7 @@ let pages = [
     { url: "/portfolio/contact", title: 'contact' },
     { url: "/portfolio/projects", title: 'projects' },
     { url: "/portfolio/resume/index.html", title: 'resume'},
+    { url: "/portfolio/meta/index.html", title: 'meta'},
     { url: "https://github.com/RitvikMohindru", title: 'github'}
   ];
 
