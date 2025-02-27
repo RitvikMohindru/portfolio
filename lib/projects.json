@@ -18,10 +18,10 @@
         "description": "Analyzed Taylor Swift's songs using lyrics and audio features. Created data visualizations with Matplotlib to explore audio trends and built a song recommender, lyric searcher, and keyword identifier to find similar songs, search lyrics, and summarize key themes."
     },
     {
-        "title": "Modi voluptates debitis quia!",
-        "year": "2022",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Reiciendis, nemo? Excepturi, adipisci eligendi iure pariatur aliquam impedit culpa id at velit ullam provident ratione! Accusamus, repellat eos accusantium, eligendi quaerat dicta reiciendis illo similique magnam inventore corporis neque!"
+        "title": "Bikewatching Visualization",
+        "year": "2025",
+        "image": "../images/BikewatchingProjectLab07.png",
+        "description": "Made an interactive visualization about Boston bike traffic, in which the viewer can zoom in and out, pan, and adjust the time of day. There are green lines for paths, and circles representing stations where the color represents whether traffic is entering or leaving the station, and the size represents the amount of traffic."
     },
     {
         "title": "Temporibus cumque aut numquam.",
